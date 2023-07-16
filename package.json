@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://pluto1990.github.io/temple-run-jing",
   "scripts": {
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
