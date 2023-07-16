@@ -2,7 +2,7 @@
   "name": "temple-run-jing-homePage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pluto1990.github.io/temple-run-jing-homePage",
+  "homepage": "https://Pluto1990.github.io/temple-run-jing-homePage",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
