@@ -1,18 +1,26 @@
 /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   reactStrictMode: false,
+//   images: {
+//     domains: ['via.placeholder.com', 'localhost'],
+//   },
+//   // avoid cors with proxy
+//   async rewrites() {
+//     return [
+//       {
+//         source: '/api/:path*',
+//         destination: 'http://localhost:3005/:path*', // Proxy to Backend
+//       },
+//     ]
+//   },
+// }
 const nextConfig = {
-  reactStrictMode: false,
+  reactStrictMode: true,
   images: {
-    domains: ['via.placeholder.com', 'localhost'],
+    loader: 'akamai',
+    path: '',
   },
-  // avoid cors with proxy
-  async rewrites() {
-    return [
-      {
-        source: '/api/:path*',
-        destination: 'http://localhost:3005/:path*', // Proxy to Backend
-      },
-    ]
-  },
+  basePath: '/temple-run-jing',
+  assetPrefix: '/temple-run-jing',
 }
-
 module.exports = nextConfig

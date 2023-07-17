@@ -56,7 +56,7 @@ var button_module_default = /*#__PURE__*/__webpack_require__.n(button_module);
 var _variables_module = __webpack_require__(6804);
 var _variables_module_default = /*#__PURE__*/__webpack_require__.n(_variables_module);
 ;// CONCATENATED MODULE: ./assets/Star_white.svg
-/* harmony default export */ const Star_white = ({"src":"/_next/static/media/Star_white.15b8dc53.svg","height":39,"width":38,"blurWidth":0,"blurHeight":0});
+/* harmony default export */ const Star_white = ({"src":"/temple-run-jing/_next/static/media/Star_white.15b8dc53.svg","height":39,"width":38,"blurWidth":0,"blurHeight":0});
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(5675);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);

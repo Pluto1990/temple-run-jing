@@ -4,6 +4,9 @@ import HomeSet from '../cards/HomeSet'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import ArrowRight from '@/components/common/arrow/arrowRight'
 import ArrowLeft from '@/components/common/arrow/arrowLeft'
+import mazu from '@/assets/mazuSet.svg'
+import study from '@/assets/studySet.svg'
+import love from '@/assets/loveSet.svg'
 
 class CarouselMain extends Component {
   constructor(props) {
@@ -50,13 +53,13 @@ class CarouselMain extends Component {
           interval={3000}
         >
           <Carousel.Item >
-            <HomeSet text1="吉祥如意" text2="媽祖基本款" pic1="MazuSet" />
+            <HomeSet text1="吉祥如意" text2="媽祖基本款" pic1={mazu} />
           </Carousel.Item>
           <Carousel.Item>
-            <HomeSet text1="花好月圓" text2="月老基本款" pic1="loveSet" />
+            <HomeSet text1="花好月圓" text2="月老基本款" pic1={love} />
           </Carousel.Item>
           <Carousel.Item>
-            <HomeSet text1="金榜題名" text2="文昌基本款" pic1="studySet" />
+            <HomeSet text1="金榜題名" text2="文昌基本款" pic1={study} />
           </Carousel.Item>
         </Carousel>
       </>

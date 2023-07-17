@@ -1,24 +1,21 @@
 import React from 'react'
 import Image from 'next/image'
-import mazuGod from '@/assets/mazuGod.svg'
-import studyGod from '@/assets/studyGod.svg'
-import loveGod from '@/assets/loveGod.svg'
 import Arched from '@/assets/arched.svg'
 import Button from '@/components/common/button'
 import styles from './HomeGod.module.sass'
 
 export default function HomeGod({
-  text1 = 'text1',
-  text2 = 'text2',
-  pic = 'loveGod',
+  text1 ,
+  text2 ,
+  pic ,
 }) {
-  const temp = '../../' + pic + '.svg'
+  // const temp = '../../' + pic + '.svg'
   return (
     <>
       <div className={`${styles.flex_col}`}>
         <div className={`${styles.container}`}>
           <Image
-            src={`${temp}`}
+            src={`${pic}`}
             // src="../../loveGod.svg"
             alt=""
             width="400"

@@ -82,11 +82,11 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 var next_link = __webpack_require__(1664);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 ;// CONCATENATED MODULE: ./assets/stars.svg
-/* harmony default export */ const stars = ({"src":"/_next/static/media/stars.72f81524.svg","height":29,"width":174,"blurWidth":0,"blurHeight":0});
+/* harmony default export */ const stars = ({"src":"/temple-run-jing/_next/static/media/stars.72f81524.svg","height":29,"width":174,"blurWidth":0,"blurHeight":0});
 ;// CONCATENATED MODULE: ./assets/logoChi.svg
-/* harmony default export */ const logoChi = ({"src":"/_next/static/media/logoChi.8e47496f.svg","height":23,"width":109,"blurWidth":0,"blurHeight":0});
+/* harmony default export */ const logoChi = ({"src":"/temple-run-jing/_next/static/media/logoChi.8e47496f.svg","height":23,"width":109,"blurWidth":0,"blurHeight":0});
 ;// CONCATENATED MODULE: ./assets/logoEng.svg
-/* harmony default export */ const logoEng = ({"src":"/_next/static/media/logoEng.0666d5ab.svg","height":10,"width":123,"blurWidth":0,"blurHeight":0});
+/* harmony default export */ const logoEng = ({"src":"/temple-run-jing/_next/static/media/logoEng.0666d5ab.svg","height":10,"width":123,"blurWidth":0,"blurHeight":0});
 ;// CONCATENATED MODULE: ./components/layout/footer.js
 
 

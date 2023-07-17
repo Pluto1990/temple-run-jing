@@ -255,9 +255,9 @@ function Navbar({ info ="left"  }) {
 }
 
 ;// CONCATENATED MODULE: ./assets/logoChiHeader.svg
-/* harmony default export */ const logoChiHeader = ({"src":"/_next/static/media/logoChiHeader.41bd4765.svg","height":20,"width":92,"blurWidth":0,"blurHeight":0});
+/* harmony default export */ const logoChiHeader = ({"src":"/temple-run-jing/_next/static/media/logoChiHeader.41bd4765.svg","height":20,"width":92,"blurWidth":0,"blurHeight":0});
 ;// CONCATENATED MODULE: ./assets/logoEngHeader.svg
-/* harmony default export */ const logoEngHeader = ({"src":"/_next/static/media/logoEngHeader.a8398193.svg","height":8,"width":103,"blurWidth":0,"blurHeight":0});
+/* harmony default export */ const logoEngHeader = ({"src":"/temple-run-jing/_next/static/media/logoEngHeader.a8398193.svg","height":8,"width":103,"blurWidth":0,"blurHeight":0});
 ;// CONCATENATED MODULE: ./components/layout/header/logo.js
 
 
@@ -291,7 +291,7 @@ function Logo() {
 }
 
 ;// CONCATENATED MODULE: ./assets/header.svg
-/* harmony default export */ const header = ({"src":"/_next/static/media/header.b02d3f4b.svg","height":159,"width":1938,"blurWidth":0,"blurHeight":0});
+/* harmony default export */ const header = ({"src":"/temple-run-jing/_next/static/media/header.b02d3f4b.svg","height":159,"width":1938,"blurWidth":0,"blurHeight":0});
 ;// CONCATENATED MODULE: ./components/layout/header/index.js
 
 

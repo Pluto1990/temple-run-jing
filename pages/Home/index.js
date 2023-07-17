@@ -18,6 +18,9 @@ import HomeCarousels from '@/components/common/carousel/HomeCarousels'
 import HomeDoor from '@/components/common/cards/HomeDoor'
 import HomeDoor2 from '@/components/common/cards/HomeDoor2'
 import HomeDoor3 from '@/components/common/cards/HomeDoor3'
+import mazuGod from '@/assets/mazuGod.svg'
+import studyGod from '@/assets/studyGod.svg'
+import loveGod from '@/assets/loveGod.svg'
 
 export default function Home() {
   return (
@@ -99,9 +102,9 @@ export default function Home() {
         lineColor="green"
       />
       <div className={styles.flex_row2}>
-        <God text1="媽祖" text2="求籤" pic="MazuGod" />
-        <God text1="月老" text2="求紅線" />
-        <God text1="文昌" text2="點學業燈" pic="StudyGod" />
+        <God text1="媽祖" text2="求籤" pic={mazuGod} />
+        <God text1="月老" text2="求紅線" pic={loveGod}/>
+        <God text1="文昌" text2="點學業燈" pic={studyGod} />
       </div>
       {/* section4 */}
       <Title text="遶境online" text2="PILGRIMAGE ONLINE" lineColor="green" />
