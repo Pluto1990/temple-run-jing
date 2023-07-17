@@ -102,9 +102,9 @@ export default function Home() {
         lineColor="green"
       />
       <div className={styles.flex_row2}>
-        <God text1="媽祖" text2="求籤" pic1={mazuGod} />
-        <God text1="月老" text2="求紅線" pic1={loveGod}/>
-        <God text1="文昌" text2="點學業燈" pic1={studyGod} />
+        <God text1="媽祖" text2="求籤" pic={mazuGod} />
+        <God text1="月老" text2="求紅線" pic={loveGod}/>
+        <God text1="文昌" text2="點學業燈" pic={studyGod} />
       </div>
       {/* section4 */}
       <Title text="遶境online" text2="PILGRIMAGE ONLINE" lineColor="green" />

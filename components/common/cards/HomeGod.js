@@ -7,7 +7,7 @@ import styles from './HomeGod.module.sass'
 export default function HomeGod({
   text1 ,
   text2 ,
-  pic1 ,
+  pic ,
 }) {
   // const temp = '../../' + pic + '.svg'
   return (
@@ -15,7 +15,7 @@ export default function HomeGod({
       <div className={`${styles.flex_col}`}>
         <div className={`${styles.container}`}>
           <Image
-            src={`${pic1}`}
+            src={`${pic}`}
             // src="../../loveGod.svg"
             alt=""
             width="400"

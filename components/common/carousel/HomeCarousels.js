@@ -53,13 +53,13 @@ class CarouselMain extends Component {
           interval={3000}
         >
           <Carousel.Item >
-            <HomeSet text1="吉祥如意" text2="媽祖基本款" pic1={mazu} />
+            <HomeSet text1="吉祥如意" text2="媽祖基本款" pic={mazu} />
           </Carousel.Item>
           <Carousel.Item>
-            <HomeSet text1="花好月圓" text2="月老基本款" pic1={love} />
+            <HomeSet text1="花好月圓" text2="月老基本款" pic={love} />
           </Carousel.Item>
           <Carousel.Item>
-            <HomeSet text1="金榜題名" text2="文昌基本款" pic1={study} />
+            <HomeSet text1="金榜題名" text2="文昌基本款" pic={study} />
           </Carousel.Item>
         </Carousel>
       </>
