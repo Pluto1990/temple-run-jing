@@ -15,7 +15,7 @@ export default function HomeGod({
       <div className={`${styles.flex_col}`}>
         <div className={`${styles.container}`}>
           <Image
-            src={`${pic}`}
+            src={pic}
             // src="../../loveGod.svg"
             alt=""
             width="400"

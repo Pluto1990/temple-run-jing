@@ -23,7 +23,7 @@ export default function HomeSet({
           </div>
         </div>
         <div>
-          <Image src={`${pic}`} alt="" width="800" height="610"></Image>
+          <Image src={pic} alt="" width="800" height="610"></Image>
         </div>
       </div>
     </>
