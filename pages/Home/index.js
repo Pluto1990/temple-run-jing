@@ -43,7 +43,7 @@ export default function Home() {
               <div className={`${styles.position}`}>
                 {/* dog */}
                 <div className={`${styles.dog}`}>
-                  <Image src={dog} width={400} alt="dog" />
+                  <Image src={dog} width={400} alt="dog" unoptimized={true}/>
                 </div>
                 {/* lighting */}
                 <div className={`${styles.lighting}`}>
