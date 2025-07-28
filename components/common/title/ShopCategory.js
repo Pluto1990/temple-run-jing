@@ -1,5 +1,5 @@
 import React from 'react'
-import variables from '@/styles/_variables.module.sass'
+import variables from '@/styles/_variables.module.scss'
 import styles from './ShopCategory.module.sass'
 
 export default function ShopCategory({ text = 'text', color = 'green' }) {

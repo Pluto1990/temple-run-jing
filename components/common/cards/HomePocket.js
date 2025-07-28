@@ -13,13 +13,11 @@ export default function HomePocket() {
           <Image
             src={flower}
             alt=""
-            width="690"
             className={`${styles.flower}`}
           ></Image>
           <Image
             src={Kuai}
             alt=""
-            width="540"
             className={`${styles.kuai}`}
           ></Image>
         </div>

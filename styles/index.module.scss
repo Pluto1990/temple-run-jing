@@ -1,0 +1,66 @@
+.section_1 {
+  background: #c39a6b;
+  width: 100%;
+  aspect-ratio: 1 / 0.5625;
+  position: relative;
+  img {
+    width: 100%;
+    height: revert;
+  }
+  @media (max-width: 768px) {
+    aspect-ratio: 1 / 0.9;
+  }
+  .logo2 {
+    display: none;
+    @media (max-width: 768px) {
+      display: block;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 22%;
+      aspect-ratio: 1 / 0.485436893;
+    }
+  }
+  .right,
+  .left {
+    position: absolute;
+    bottom: 0;
+    aspect-ratio: 1 / 1.29450262;
+    width: 15%;
+    z-index: 10;
+  }
+  .right {
+    left: 5%;
+  }
+  .left {
+    right: 5%;
+  }
+  .bottom {
+    position: absolute;
+    bottom: -5px;
+    z-index: 12;
+    width: 100%;
+  }
+}
+.section_2 {
+  :global {
+    .swiper-button-prev,
+    .swiper-button-next {
+      color: #e4007e;
+    }
+  }
+}
+.section_3 {
+  margin-top: 100px;
+  .flex_row2 {
+    width: 70%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    @media (max-width: 991px) {
+      flex-direction: column;
+    }
+  }
+}

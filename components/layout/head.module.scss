@@ -1,0 +1,144 @@
+.header {
+  display: flex;
+  align-items: center;
+  background: #c39a6b;
+  padding: 0 75px;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 90px;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 999;
+  width: 100%;
+  @media (max-width: 1050px) {
+    padding:0 25px;
+    justify-content: flex-start;
+  }
+  @media (max-width: 991px) {
+    height: 60px;
+  }
+}
+.menu_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  width: 100%;
+  @media (max-width: 991px) {
+    display: none;
+    &.active {
+      display: flex;
+      position: fixed;
+      background: #eeece0;
+      width: 100vw;
+      height: calc(100vh - 60px);
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 0;
+      top: 60px;
+      left: 0;
+      padding: 30px 0;
+      z-index: 999;
+    }
+  }
+}
+.nav_wrap {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  gap: 12px;
+  @media (max-width: 991px) {
+    flex-direction: column;
+    margin: 6px 0;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    padding:10px 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0;
+    @media (max-width: 991px) {
+      flex-direction: row;
+    }
+    .num {
+      color: #f4e62a;
+      position: relative;
+      font-size: 14px;
+      transition: 0.5s;
+    }
+    .title {
+      color: #241b15;
+      font-weight: 500;
+      transition: 0.5s;
+    }
+  }
+}
+.logo {
+  width: 103px;
+  aspect-ratio: 1 / 0.436893204;
+  @media (max-width: 991px) {
+    display: none;
+  }
+  img{
+    width: 100%;
+  }
+}
+.ham_wrap {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 20px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  @media (max-width: 991px) {
+    display: block;
+  }
+  .line {
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: #241b15;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: ease 0.15s;
+    &:nth-child(1) {
+      top: 0;
+    }
+    &:nth-child(2) {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &:nth-child(3) {
+      bottom: 0;
+    }
+  }
+  &.active {
+    .line {
+      &:nth-child(1) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+      &:nth-child(2) {
+        left: -100%;
+      }
+      &:nth-child(3) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
+    }
+  }
+}

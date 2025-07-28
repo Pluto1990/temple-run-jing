@@ -25,7 +25,7 @@ export default function Footer() {
 
         {/* 第二排內容 */}
         <div className={`${styles.flex_row} fs15px fwBolder`}>
-          <Image src={stars} width={150} alt="stars" />
+          <Image src={stars} className={`${styles.star}`} alt="stars" />
           <span>
             {info.map((v, i) => (
               <React.Fragment key={i}>
@@ -36,7 +36,7 @@ export default function Footer() {
               </React.Fragment>
             ))}
           </span>
-          <Image src={stars} width={150} alt="stars" />
+          <Image src={stars} className={`${styles.star}`}  alt="stars" />
         </div>
 
         {/* copyright */}

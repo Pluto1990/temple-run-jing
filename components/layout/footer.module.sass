@@ -1,8 +1,8 @@
-@import '@/styles/_variables.module.sass'
+@import '@/styles/_variables.module.scss'
 
-.footer 
+.footer
     background-color: $brown
-    left:0
+    left: 0
     bottom: 0
     width: 100%
     padding-top: 28px
@@ -19,8 +19,15 @@
     justify-content: space-around
     padding-bottom: 25px
     color: $deep_black
-
+    gap: 10px
+    @media (max-width: 991px)
+      font-size: 12px
+.star
+    width: 1%
+    max-width: 150px
+    flex: 1
+    @media (max-width: 991px)
+       display: none
 .ahref
     text-decoration: none
     color: $deep_black
-

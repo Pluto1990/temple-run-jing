@@ -1,31 +1,38 @@
-@import '@/styles/_variables.module.sass'
+@import '@/styles/_variables.module.scss'
 
 .flex_col
-   margin:80px 8px 0px
+   margin: 60px 0 0
    display: flex
-   width: 465px
-   height: 666px
+   width: calc((100% - 60px ) / 3)
+   aspect-ratio: 1 / 1.4325806
    align-items: center
    flex-direction: column
    flex-shrink: 0
+   @media (max-width: 991px)
+      width: 100%
 
 .flex_row
-    display: flex
-    align-items: center
-    justify-content: center
+   display: flex
+   align-items: center
+   justify-content: center
 
 .container
    display: flex
    align-items: center
    justify-content: center
+   width: 100%
+   position: relative
 
 .title
-   padding-top:60px 
+   padding-top: 60px
    color: #241B15
    font-size: 32px
    font-weight: 700
    line-height: 158.2%
    letter-spacing: 6.4px
+   @media (max-width: 991px)
+      margin-top: 20px
+      font-size: 24px
 
 .img
    position: absolute

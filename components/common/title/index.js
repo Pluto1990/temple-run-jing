@@ -1,5 +1,5 @@
 import styles from './title.module.sass'
-import variables from '@/styles/_variables.module.sass'
+import variables from '@/styles/_variables.module.scss'
 
 //text = 大標
 //text2 = 小標
@@ -11,7 +11,7 @@ export default function Title({
 }) {
   const var_color = variables[lineColor]
   return (
-    <div className={`${styles.flex} mt120px`}>
+    <div className={`${styles.flex}`}>
       <div className={`${styles.title}`}>{text}</div>
       <div className={`${styles.title2}`}>{text2}</div>
       <div

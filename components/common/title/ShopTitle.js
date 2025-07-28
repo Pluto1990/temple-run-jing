@@ -1,5 +1,5 @@
 import styles from './ShopTitle.module.sass'
-import variables from '@/styles/_variables.module.sass'
+import variables from '@/styles/_variables.module.scss'
 
 //text = 大標
 // lineColor = black, green, hot_pink, brown

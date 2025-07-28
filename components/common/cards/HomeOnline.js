@@ -19,14 +19,12 @@ export default function HomeOnline() {
           <div className={`${styles.flex_row}`}>
             <Image
               src={Star}
-              width={90}
               alt="Star_Pink"
               className={`${styles.img}`}
             />
             <Button text="開始遶境" btnColor="hot_pink" />
             <Image
               src={Star}
-              width={90}
               alt="Star_Pink"
               className={`${styles.img}`}
             />

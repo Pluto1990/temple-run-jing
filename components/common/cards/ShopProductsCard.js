@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './ShopProductsCard.module.sass'
-import variables from '@/styles/_variables.module.sass'
+import variables from '@/styles/_variables.module.scss'
 // assests
 import goldenStar_fill from '@/assets/goldenStar_fill.svg'
 import goldenStar_outline from '@/assets/goldenStar_outline.svg'

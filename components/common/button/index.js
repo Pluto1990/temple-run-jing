@@ -1,5 +1,5 @@
 import styles from './button.module.sass'
-import variables from '@/styles/_variables.module.sass'
+import variables from '@/styles/_variables.module.scss'
 import Star from '@/assets/Star_white.svg'
 import Image from 'next/image'
 

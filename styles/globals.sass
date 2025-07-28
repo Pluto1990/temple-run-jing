@@ -1,14 +1,24 @@
 @import '@/styles/mixins/_mixin'
-@import '@/styles/_variables.module.sass'
+@import '@/styles/_variables.module.scss'
+$font-weight: 400 500 600 700
+
+*,
+*::before,
+*::after
+    box-sizing: border-box
 
 body
     margin: 0
-    padding:0
+    padding: 0
     background-color: $bgColor
     font-family: 'Noto Sans TC', sans-serif
     color: $fontColor
     scroll-behavior: smooth
     overflow-x: hidden
+    box-sizing: border-box
+    img
+        width: 100%
+        height: revert
 
 // div::selection
 //     color: $green
@@ -18,7 +28,7 @@ body
 img::selection
     background: transparent
 
-$tag:"div","span","p","h1","h2","h3","h4","h5"
+$tag: "div","span","p","h1","h2","h3","h4","h5"
 
 @for $i from 1 through 8
     @include selection(nth($tag,$i),$hot_pink)
@@ -27,12 +37,12 @@ $tag:"div","span","p","h1","h2","h3","h4","h5"
 @for $i from 12 through 30
     @include fsnpx($i)
 
-$font-weight:"Normal","Bold","Bolder","Lighter"
+    $font-weight: "Normal","Bold","Bolder","Lighter"
 
 // fwNormal, fwBold, fwBolder, fwLighter
 @for $i from 1 through 4
     @include fwn(nth($font-weight,$i))
-    
+
 // h1px ~ h2000px
 @for $i from 1 through 2000
     @include hnpx($i)
@@ -82,24 +92,22 @@ $font-weight:"Normal","Bold","Bolder","Lighter"
     @include menpx($i)
 
 ::-webkit-scrollbar
-  width: 15px
-  height: 10px
+    width: 5px
+    height: 10px
 
 ::-webkit-scrollbar-track
-  background-color: white
-
+    background-color: white
 
 ::-webkit-scrollbar-thumb
     // #BB952A #CDAE50 #FDE182 generate
     background-image: linear-gradient(to top, #bb952a, #be9a32, #c19e39, #c5a340, #c8a847, #ceae4e, #d3b555, #d9bb5c, #e2c465, #ebce6f, #f4d778, #fde182)
-    height:20px
+    height: 20px
 
-    
 .shadow
     filter: drop-shadow(0.2rem 0.2rem 0.25rem $shadow)
-    
+
 .border
-    border:1px red solid
+    border: 1px red solid
 
 .nowrap
     display: flex
@@ -107,7 +115,10 @@ $font-weight:"Normal","Bold","Bolder","Lighter"
     align-items: center
 
 .shopContainer
-    width:80%
+    width: 80%
     margin-left: auto
     margin-right: auto
 
+@media (max-width: 991px) 
+  :root
+    --swiper-navigation-size: 22px !important

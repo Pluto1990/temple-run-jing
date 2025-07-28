@@ -15,31 +15,27 @@ export default function HomeJob() {
             <Image
               src={star}
               alt=""
-              width="42"
               className={`${styles.star2}`}
             ></Image>
             <Image
               src={star}
               alt=""
-              width="70"
               className={`${styles.star1}`}
             ></Image>
           </div>
           <div className={`${styles.flex}`}>
-          <Image src={eyes} alt="" width="450" className={`${styles.eye} mt50px`}></Image>
-          <Image src={look} alt="" width="450" className="mt50px"></Image>
+          <Image src={eyes} alt="" className={`${styles.eye} mt50px`}></Image>
+          <Image src={look} alt="" className="mt50px"></Image>
           </div>
           <div className={`${styles.flex_col2} mt80px`}>
             <Image
               src={star}
               alt=""
-              width="70"
               className={`${styles.star1}`}
             ></Image>
             <Image
               src={star}
               alt=""
-              width="42"
               className={`${styles.star2}`}
             ></Image>
           </div>
