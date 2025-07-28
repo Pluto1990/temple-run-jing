@@ -2,13 +2,15 @@
   "name": "temple_run_jing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pluto1990.github.io/temple-run-jing",
+  "homepage": "https://pluto1990.github.io/temple-run-jing/Home",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@emotion/css": "^11.11.2",
